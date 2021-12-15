@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="classes" name="Test one (failed)">
+    <classes>
+      <class name="holistapetSite.SingleImageValidation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="start"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- holistapetSite.SingleImageValidation -->
+    </classes>
+  </test> <!-- Test one (failed) -->
+  <test thread-count="3" parallel="classes" name="Test two (failed)">
+    <classes>
+      <class name="holistapetSite.ContentValidation">
+        <methods>
+          <include name="start"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- holistapetSite.ContentValidation -->
+    </classes>
+  </test> <!-- Test two (failed) -->
+  <test thread-count="3" parallel="classes" name="Test three (failed)">
+    <classes>
+      <class name="holistapetSite.ProductValidation">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="start"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- holistapetSite.ProductValidation -->
+    </classes>
+  </test> <!-- Test three (failed) -->
+</suite> <!-- Failed suite [Suite] -->
